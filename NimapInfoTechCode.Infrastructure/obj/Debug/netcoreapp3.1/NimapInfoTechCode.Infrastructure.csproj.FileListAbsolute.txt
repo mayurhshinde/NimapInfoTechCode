@@ -1,0 +1,13 @@
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Core.dll
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.AssemblyInfo.cs
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.deps.json
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.dll
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.pdb
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Core.pdb
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.csprojAssemblyReference.cache
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.csproj.CopyComplete
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.dll
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.pdb
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.runtimeconfig.json
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Infrastructure\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Infrastructure.runtimeconfig.dev.json

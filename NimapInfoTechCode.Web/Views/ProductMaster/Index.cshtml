@@ -1,0 +1,56 @@
+﻿@model Pagination<ProductMaster>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3>Product Master</h3>
+
+
+<p>
+    <a asp-action="AddUpdate" class="btn btn-primary">Create New</a>
+</p>
+@{
+    if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">
+            <strong>Success!</strong> @TempData["Message"].ToString()
+        </div>
+    }
+}
+
+
+<table class="table table-striped">
+
+    <tr>
+        @*<th>ID</th>*@
+        <th> Product Name </th>
+        <th> Category ID </th>
+        <th> Category Name </th>
+        <th> Action </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @*<td>@item.ID</td>*@
+            <td>@item.Name</td>
+            <td>@item.CategoryMaster.ID</td>
+            <td>@item.CategoryMaster.Name</td>
+            <td>
+                @Html.ActionLink("Edit", "AddUpdate", new { id = item.ID }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+
+    }
+</table>
+<div>
+    <ul class="pagination">
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                <a asp-page="/pagination" asp-route-PageNo="@i" class="page-link">@i</a>
+            </li>
+        }
+    </ul>
+</div>

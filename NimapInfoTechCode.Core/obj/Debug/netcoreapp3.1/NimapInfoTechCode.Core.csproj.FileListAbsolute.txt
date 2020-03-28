@@ -1,0 +1,8 @@
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Core.deps.json
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Core.dll
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\bin\Debug\netcoreapp3.1\NimapInfoTechCode.Core.pdb
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Core.csprojAssemblyReference.cache
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Core.AssemblyInfoInputs.cache
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Core.AssemblyInfo.cs
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Core.dll
+C:\Users\globe365india\source\repos\NimapInfoTechCode\NimapInfoTechCode.Core\obj\Debug\netcoreapp3.1\NimapInfoTechCode.Core.pdb

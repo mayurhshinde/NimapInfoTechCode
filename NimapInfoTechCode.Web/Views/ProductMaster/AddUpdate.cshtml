@@ -1,0 +1,50 @@
+﻿@model ProductMasterDto
+@{
+    ViewData["Title"] = "AddUpdate";
+}
+
+
+@if (Model != null && Model.product != null && Model.product.ID > 0)
+{
+    <h2>Edit</h2>
+}
+else
+{
+    <h2>Add</h2>
+}
+
+
+<hr />
+
+@using (Html.BeginForm("AddUpdate", "ProductMaster", FormMethod.Post))
+{
+    if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> @ViewBag.Message
+        </div>
+    }
+
+    <label>  Product Name : </label>
+    @Html.TextBox("Name", Model == null ? string.Empty : Model.product == null ? "" : Model.product.Name, new { @class = "form-control" })
+    <br />
+    @Html.DropDownList("CategoryId", new SelectList(Model.categories, "ID", "Name", Model == null ? 1 : Model.product == null ? 1 : Model.product.CategoryId))
+    <br />
+    @Html.Hidden("IsActive", Model == null ? true : Model.product == null ? true : Model.product.IsActive);
+    @*<label>   Active  :  </label> @Html.CheckBox("IsActive", Model == null ? true : Model.IsActive);*@
+    @Html.Hidden("ID", Model == null ? 0 : Model.product == null ? 0 : Model.product.ID);
+
+    <br />
+
+    @if (Model != null && Model.product != null && Model.product.ID > 0)
+    {
+        <input type="submit" name="Update" value="Update" class="btn btn-primary" />
+    }
+    else
+    {
+        <input type="submit" name="Add" value="Add" class="btn btn-primary" />
+    }
+    <a asp-action="Index" class="btn btn-primary">Back</a>
+
+}
+

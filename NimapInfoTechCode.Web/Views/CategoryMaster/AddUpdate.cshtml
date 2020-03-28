@@ -1,0 +1,45 @@
+﻿@model CategoryMaster
+@{
+    ViewBag.Title = "AddUpdate";
+}
+
+@if (Model != null && Model.ID > 0)
+{
+    <h2>Edit</h2>
+}
+else
+{
+    <h2>Add</h2>
+}
+
+<hr />
+
+@using (Html.BeginForm("AddUpdate", "CategoryMaster", FormMethod.Post))
+{
+
+
+    if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> @ViewBag.Message
+        </div>
+    }
+
+    <label>  Category Name : </label>
+    @Html.TextBox("Name", Model == null ? string.Empty : Model.Name, new { @class = "form-control" })
+    <br />
+    @Html.Hidden("IsActive", Model == null ? true : Model.IsActive);
+    @*<label>   Active  :  </label> @Html.CheckBox("IsActive", Model == null ? true : Model.IsActive);*@
+    @Html.Hidden("ID", Model == null ? 0 : Model.ID);
+
+    <br />
+    @if (Model != null && Model.ID > 0)
+    {
+        <input type="submit" name="Update" value="Update" class="btn btn-primary" />
+    }
+    else
+    {
+        <input type="submit" name="Add" value="Add" class="btn btn-primary" />
+    }
+    <a asp-action="Index" class="btn btn-primary">Back</a>
+}
